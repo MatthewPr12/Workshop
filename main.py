@@ -13,6 +13,9 @@ def help():
 def read_placement():
     """
     Reads and checks user input
+
+    Returns: a coordinate and v/h
+    Example: ('b4',v)
     """
     return input().split()
 
